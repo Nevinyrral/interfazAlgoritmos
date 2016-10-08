@@ -4,3 +4,13 @@ body {
 .starter-template {
   padding: 40px 15px;
 }
+.tabla-materias-not{
+  width: 50%;
+  border-style: solid;
+  border-width: 5px;
+}
+.tabla-materias-yes{
+  border-style: groove;
+  border-width: 5px;
+
+}

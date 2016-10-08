@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>horario</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Arma tu Horario</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="horario.html">Horario</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class = "container" >
+    <table class="table tabla-materias-yes">
+      <thead>
+        <tr>
+          <th>ID de la materia</th>
+          <th>Día</th>
+          <th>Hora</th>
+          <th>Salón</th>
+          <th>Profesor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Martes - Jueves</td>
+          <td> 7:00 - 9:00 am</td>
+          <td> 2-304</td>
+          <td> Juan Zamora</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Lunes - Miercoles</td>
+          <td> 9:00 - 11:00 am</td>
+          <td> 9-101</td>
+          <td> Jacinto Londoño</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Miercoles - Viernes</td>
+          <td> 11:00 - 1:00 pm</td>
+          <td> 53-302</td>
+          <td> Pacheco Gutierrez</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+   <label for ="materias-not-table" style="padding-top: 40px;"> Las siguientes materias no pudieron inscribirse </label>
+  <table class="table tabla-materias-not" id="materias-not-table" >
+    <thead>
+      <tr>
+        <th>ID de la materia</th>
+        <th>Error</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">4</th>
+        <td>No cumple el prerequisito </td>
+      </tr>
+      <tr>
+        <th scope="row">76</th>
+        <td>Créditos insuficientes</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  </body>
+
+</html>
